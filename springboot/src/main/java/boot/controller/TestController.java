@@ -21,6 +21,7 @@ public class TestController {
     @RequestMapping(value = "/hello")
     public String hello(Map<String,Object> map){
         map.put("hello","hello");
+        System.out.println("123213");
         return "hello";
     }
     @RequestMapping(value = "/freemarker")
