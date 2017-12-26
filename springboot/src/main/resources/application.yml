@@ -1,0 +1,10 @@
+
+server:
+    port : 9090
+
+test:
+    msg : hello msg
+
+mybatis:
+  mapperLocations: classpath:boot/mapper/*.xml
+  typeAliasesPackage: boot.dao
